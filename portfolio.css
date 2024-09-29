@@ -1,0 +1,111 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    }
+    .main{
+    width: 100%;
+    /*background: url("https://img.freepik.com/free-vector/bird-colorful-logo-gradientvector_343694-
+    1365.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1726444800&semt=ais_hybrid");*/
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+    }
+    body{
+    background-color: rgb(165, 144, 164);
+    }
+    .navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+    }
+    ul{
+    margin-top: -4%;
+    }
+    ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+    }
+    ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(113, 212, 212);
+    margin-top: -3%;
+    transition: .4s ease;
+    }
+    ul li a:hover{
+    color: rgb(124, 50, 23);
+    }
+    .info{
+    margin-left: 7%;
+    margin-top: 6%;
+    }
+    .info h1{
+    font-size: 65px;
+    color:rgb(79, 14, 112)
+    }
+    .info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    }
+    .info span{
+    color:rgb(97, 31, 7);
+    }
+    .info a{
+    text-decoration: none;
+    color:#fff;
+    background:rgb(71, 54, 45) ;
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display:inline-block;
+    transition: .4s ease;
+    }
+    .info a:hover{
+    background: rgb(25, 169, 213);
+    }
+    .image{
+    width:30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    }
+    .image img{
+    position: absolute;
+    height: 100%;
+    left: 40%;
+    transform:translate(-55%) ;
+    bottom: 0;
+    transition: left 2s ease;
+    }
+    .iamge:hover .Boy{
+    left: 55%;
+    }
+    .iamge a{
+    text-decoration: none;
+    color:#000;
+    }
+    .icons ion-icon{
+    margin-left: 7%;
+    color:#000;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+    }
+    .icons ion-icon:hover{
+    color: rgb(20, 128, 161);
+    }
